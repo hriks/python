@@ -1,0 +1,16 @@
+q = input()
+vowels = 'AEIOU'
+k = 0
+s = 0
+for i in range(len(q)):
+    if q[i] in vowels:
+        k += (len(q)-i)
+    else:
+        s += (len(q)-i)
+
+if k > s:
+    print ("Congrats! Kevin Wins", k)
+elif k < s:
+    print ("Congrats Stuart! you WIN!", s)
+else:
+    print ("The Game was Draw")
