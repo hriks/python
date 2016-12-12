@@ -6,5 +6,5 @@ def polygon(sides, length):
     val = nume / deno
     return val
 
-    
+   
 print polygon(7, 3)
