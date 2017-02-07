@@ -1,6 +1,6 @@
 print "Enter the number pls"
 b = int(input())
-print "Factorail is",
+print "Factorial is",
 
 
 def asd(n):
@@ -9,5 +9,4 @@ def asd(n):
     else:
         return (n * asd(n - 1))
 
-
-print asd(b)
+print "This is your's desired no",asd(b)
