@@ -7,5 +7,4 @@ for i in range(0, n):
         print "YES"
     else:
         print "NO"
-        
-        
+# Checks the effective phone number
