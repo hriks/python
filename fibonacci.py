@@ -15,4 +15,5 @@ else:
     print("Fibonacci sequence:")
     for i in range(a):
         print(fibo(i))
-        print(fibo(i)dljd
+        print(fibo(i))
+        print(This is the result)
