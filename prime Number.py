@@ -8,5 +8,5 @@ def check_prime(number):
     return "Prime"
 
 
-lis = [1, 2, 3, 4]
+lis = [1, 2, 3, 4, 5, 6, 7]
 print check_prime(21)
